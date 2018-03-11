@@ -12,7 +12,8 @@ import com.example.httpvolley.httpvolley.VolleyBrother;
 
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
-    private String url = "http://v.juhe.cn/weather/index?&cityname=长沙&key=fd0f609b22905a0a56a48d7cf59a558b";
+    //具体的请求地址可以自己上聚合网申请：
+    private String url = "http://v.juhe.cn/weather/index?&cityname=长沙&key=使用自己的key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
